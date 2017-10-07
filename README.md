@@ -45,4 +45,11 @@ In this repository you will find :
         * data3 : data frame containing average of each variable for each activity and each subject of data2.
     * write in the working directory a "finalDataSet.txt" containing data of data3.
 
+-----------------------------------------------------------
+
+# How to read the finalDataSet.txt
+
+data <- read.table("./finalDataSet.txt", header = TRUE)
+View(data)
+
 
