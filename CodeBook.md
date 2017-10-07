@@ -77,10 +77,10 @@ Record Per Case :
 
 Variable Name                       | Explanation      | Value 
 --------------------------------    | ---------------- | ----------:
-tBodyAcc-mean()-X                   |                  | numeric:
+tBodyAcc-mean()-X                   |                  | numeric
 tBodyAcc-mean()-Y
-                   | vindaloo         | mild:
-tBodyAcc-mean()-Z                   | lamb madras      | HOT:
+                   | vindaloo         | mild
+tBodyAcc-mean()-Z                   | lamb madras      | HOT
 tBodyAcc-std()-X                    |                  |
 tBodyAcc-std()-Y                    |                  |
 tBodyAcc-std()-Z                    |                  |
