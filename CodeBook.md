@@ -119,7 +119,6 @@ data3 <- ddply(data2, .(activity, subject), numcolwise(mean))
 ## firstDataSet
 
 * firstDataSet :
-    * File Structure : data.frame
     * Cases : 10299
     * Variables : 81
 
@@ -169,7 +168,6 @@ subject                             | Number of the volunteer         | From 1 t
 ## finalDataSet
 
 * finalDataSet :
-    * File Structure : data.frame
     * Cases : 180
     * Variables : 81
 
