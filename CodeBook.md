@@ -75,7 +75,7 @@ alert(hw);
 
 Variable Name                       | Explanation                     | Value 
 ----------------------------------- | ------------------------------- | -------------:
-activity                            |                                 | numeric
+activity                            | Activity of the subject                                | LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS 
 subject                             | Number of the volunteer         | From 1 to 30
 tBodyAcc-mean()-X                   | Mean body acceleration along x axis                                | numeric
 tBodyAcc-mean()-Y                   | Mean body acceleration along y axis                                 | numeric
