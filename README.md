@@ -45,7 +45,7 @@ In this repository you will find :
         * data3 : data frame containing average of each variable for each activity and each subject of data2.
     * write in the working directory a "finalDataSet.txt" containing data of data3.
 
-If you already ran run_analysis.R, you can comment the following lines :
+If you already ran run_analysis.R once, you can comment the following lines :
 ```javascript
   fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileUrl, destfile = "./Dataset.zip")
@@ -56,7 +56,8 @@ If you already ran run_analysis.R, you can comment the following lines :
 
 # How to read the finalDataSet.txt
 
+```javascript
 data <- read.table("./finalDataSet.txt", header = TRUE)
 View(data)
-
+```
 
