@@ -20,7 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 -----------------------------------------------------------
 
-## Reading and putting data in R object
+## Reading and puting data in R object
 
 From this directory, I got the following data sets (for more informations, see : http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) :
 * 'features.txt': List of all features.
@@ -70,10 +70,8 @@ alert(hw);
 
 * data2 :
     * File Structure : data.frame
-    * Cases : 
+    * Cases : 10299
     * Variables : 81
-    * Record Length : 
-    * Record Per Case : 1
 
 Variable Name                       | Explanation                     | Value 
 ----------------------------------- | ------------------------------- | -------------:
@@ -89,7 +87,7 @@ tGravityAcc-mean()-X                |                                 | numeric
 tGravityAcc-mean()-Y                |                                 | numeric
 tGravityAcc-mean()-Z                |                                 | numeric
 tGravityAcc-std()-X
-                 |                                 | numeric
+ lalalala                 |       lololo                          | numeric
 tGravityAcc-std()-Y
                  |                                 | numeric
 tGravityAcc-std()-Z                 |                                 | numeric
@@ -197,7 +195,5 @@ angle(Z,gravityMean)
 
 * data3 :
     * File Structure : data.frame
-    * Cases : 
+    * Cases : 10299
     * Variables : 81
-    * Record Length : 
-    * Record Per Case : 1
