@@ -74,7 +74,7 @@ run_analysis <- function(){
   # 4) Appropriately labels the data set with descriptive variable names
   
   # From the precedent data set, I on ly keep columns containing "mean" and "std" and also activity and subject columns.
-  data2 <- select(data1, contains("mean"), contains("std"), "activity", "subject")
+  data2 <- select(data1, contains("mean", ignore.case = FALSE), contains("std"), "activity", "subject")
   
   # I sort data by activity and subject
   data2 <- arrange(data2, activity, subject)

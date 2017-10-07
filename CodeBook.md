@@ -80,7 +80,7 @@ for (i in 1:length(yTest$activity)){
 ``` 
 * From the precedent data set, I on ly keep columns containing "mean" and "std" and also activity and subject columns.
 ```javascript
-data2 <- select(data1, contains("mean"), contains("std"), "activity", "subject")
+data2 <- select(data1, contains("mean", ignore.case = FALSE), contains("std"), "activity", "subject")
 ```
 * I sort data by activity and subject
 ```javascript
