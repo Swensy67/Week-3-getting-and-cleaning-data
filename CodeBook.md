@@ -75,48 +75,48 @@ Variables :
 Record Length :
 Record Per Case : 
 
-Variable Name                       | Explanation      | Value 
---------------------------------    | ---------------- | ----------:
+Variable Name                       | Explanation                     | Value 
+--------------------------------    | ------------------------------- | ----------:
 activity                            |                                 | numeric
 subject                             | Number of the volunteer         | From 1 to 30
-tBodyAcc-mean()-X                   |                  | numeric
-tBodyAcc-mean()-Y                   | vindaloo         | numeric
-tBodyAcc-mean()-Z                   | lamb madras      | numeric
-tBodyAcc-std()-X                    |                  | numeric
-tBodyAcc-std()-Y                    |                  | numeric
-tBodyAcc-std()-Z                    |                  | numeric
-tGravityAcc-mean()-X                |                  | numeric
-tGravityAcc-mean()-Y                ||numeric
-tGravityAcc-mean()-Z                ||numeric
+tBodyAcc-mean()-X                   |                                 | numeric
+tBodyAcc-mean()-Y                   |                                 | numeric
+tBodyAcc-mean()-Z                   |                                 | numeric
+tBodyAcc-std()-X                    |                                 | numeric
+tBodyAcc-std()-Y                    |                                 | numeric
+tBodyAcc-std()-Z                    |                                 | numeric
+tGravityAcc-mean()-X                |                                 | numeric
+tGravityAcc-mean()-Y                |                                 | numeric
+tGravityAcc-mean()-Z                |                                 | numeric
 tGravityAcc-std()-X
-                 ||numeric
+                 |                                 | numeric
 tGravityAcc-std()-Y
-                 ||numeric
-tGravityAcc-std()-Z                 ||numeric
-tBodyAccJerk-mean()-X               ||numeric
-tBodyAccJerk-mean()-Y               ||numeric
-tBodyAccJerk-mean()-Z               ||numeric
+                 |                                 | numeric
+tGravityAcc-std()-Z                 |                                 | numeric
+tBodyAccJerk-mean()-X               |                                 | numeric
+tBodyAccJerk-mean()-Y               |                                 | numeric
+tBodyAccJerk-mean()-Z               |                                 | numeric
 tBodyAccJerk-std()-X
-                ||numeric
-tBodyAccJerk-std()-Y                ||numeric
-tBodyAccJerk-std()-Z                ||numeric
-tBodyGyro-mean()-X                  ||numeric
-tBodyGyro-mean()-Y                  ||numeric
-tBodyGyro-mean()-Z                  ||numeric
+                |                                 | numeric
+tBodyAccJerk-std()-Y                |                                 | numeric
+tBodyAccJerk-std()-Z                |                                 | numeric
+tBodyGyro-mean()-X                  |                                 | numeric
+tBodyGyro-mean()-Y                  |                                 | numeric
+tBodyGyro-mean()-Z                  |                                 | numeric
 tBodyGyro-std()-X    
-               ||numeric
-tBodyGyro-std()-Y                   ||numeric
+               |                                 | numeric
+tBodyGyro-std()-Y                   |                                 | numeric
 tBodyGyro-std()-Z
-                   ||numeric
-tBodyGyroJerk-mean()-X              ||numeric
-tBodyGyroJerk-mean()-Y              ||numeric
-tBodyGyroJerk-mean()-Z              ||numeric
+                   |                                 | numeric
+tBodyGyroJerk-mean()-X              |                                 | numeric
+tBodyGyroJerk-mean()-Y              |                                 | numeric
+tBodyGyroJerk-mean()-Z              |                                 | numeric
 tBodyGyroJerk-std()-X
-               ||numeric
-tBodyGyroJerk-std()-Y               ||numeric
+               |                                 | numeric
+tBodyGyroJerk-std()-Y               |                                 | numeric
 tBodyGyroJerk-std()-Z
-               ||numeric
-tBodyAccMag-mean()                  ||numeric
+               |                                 | numeric
+tBodyAccMag-mean()                  |                                 | numeric
 tBodyAccMag-std()
                    ||numeric
 tGravityAccMag-mean()
