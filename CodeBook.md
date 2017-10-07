@@ -68,12 +68,12 @@ alert(hw);
 
 ## Description of final data
 
-data2
-File Structure :
-Cases :
-Variables :
-Record Length :
-Record Per Case : 
+* data2 :
+** File Structure : data.frame
+** Cases : 
+** Variables : 81
+** Record Length : 
+** Record Per Case : 1
 
 Variable Name                       | Explanation                     | Value 
 ----------------------------------- | ------------------------------- | -------------:
@@ -192,3 +192,12 @@ angle(X,gravityMean)                |                                 | numeric
 angle(Y,gravityMean)                |                                 | numeric
 angle(Z,gravityMean)
                 |                                 | numeric
+
+-----------------------------------------------------------
+
+* data3 :
+** File Structure : data.frame
+** Cases : 
+** Variables : 81
+** Record Length : 
+** Record Per Case : 1
