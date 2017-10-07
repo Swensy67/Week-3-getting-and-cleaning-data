@@ -77,11 +77,10 @@ Record Per Case :
 
 Variable Name                       | Explanation      | Value 
 --------------------------------    | ---------------- | ----------:
-activity                   |                  | numeric
-subject                   | vindaloo         | numeric
+activity                            |                                 | numeric
+subject                             | Number of the volunteer         | From 1 to 30
 tBodyAcc-mean()-X                   |                  | numeric
-tBodyAcc-mean()-Y
-                   | vindaloo         | numeric
+tBodyAcc-mean()-Y                   | vindaloo         | numeric
 tBodyAcc-mean()-Z                   | lamb madras      | numeric
 tBodyAcc-std()-X                    |                  | numeric
 tBodyAcc-std()-Y                    |                  | numeric
