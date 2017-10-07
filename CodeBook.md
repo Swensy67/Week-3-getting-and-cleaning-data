@@ -87,10 +87,10 @@ tGravityAcc-mean()-X                |                                 | numeric
 tGravityAcc-mean()-Y                |                                 | numeric
 tGravityAcc-mean()-Z                |                                 | numeric
 tGravityAcc-std()-X
-                 |                                 | numeric
+                 | Standard deviation of gravity acceleration along x axis                                 | numeric
 tGravityAcc-std()-Y
-                 |                                 | numeric
-tGravityAcc-std()-Z                 |                                 | numeric
+                 | Standard deviation of gravity acceleration along y axis                                 | numeric
+tGravityAcc-std()-Z                 | Standard deviation of gravity acceleration along z axis                                 | numeric
 tBodyAccJerk-mean()-X               |                                 | numeric
 tBodyAccJerk-mean()-Y               |                                 | numeric
 tBodyAccJerk-mean()-Z               |                                 | numeric
