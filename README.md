@@ -27,10 +27,9 @@ Here are the instructions :
 
 In this repository you will find :
 - README.md : wich explains the purpose of this project, the content of the repo and how to run the code.
-- CodeBook.md : 
+- CodeBook.md : describes the variables, the data, and any transformations or work that I performed to clean up. 
 - run_analysis.R : the code to run.
-- data2 :
-- data3 :
+- finalDataSet.txt : the final data set described at step 5)
 
 -----------------------------------------------------------
 
@@ -40,7 +39,10 @@ In this repository you will find :
 2. Load dplyr and plyr libraries.
 3. Source the run_analysis.R
 4. Run the run_analysis.R
-5. This program will give you 2 final data frames :
-    * data2 :
-    * data3 :
+5. This program will :
+    * give you 2 final data frames :
+        * data2 : merged training and test sets with only measurements on the mean and standard deviation for each measurment. Moreover, variables are labeled, such as the activities and the data set is sorted by activity and subject.
+        * data3 : data frame containing average of each variable for each activity and each subject of data2.
+    * write in the working directory a "finalDataSet.txt" containing data of data3.
+
 
