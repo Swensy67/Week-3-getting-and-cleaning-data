@@ -81,6 +81,12 @@ Variables :
 Record Length :
 Record Per Case : 
 
+Variable name| Explanation     | Value 
+------- | ---------------- | ----------:
+Joan  | saag paneer | medium 
+Sally  | vindaloo        | mild       
+Erin   | lamb madras | HOT      
+
 | Variable name        |     Explanation    |      Value |
 | -------------------- |: ----------------: | ---------: |
 | tBodyAcc-mean()      |        1           |      value |
