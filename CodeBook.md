@@ -69,11 +69,11 @@ alert(hw);
 ## Description of final data
 
 * data2 :
-** File Structure : data.frame
-** Cases : 
-** Variables : 81
-** Record Length : 
-** Record Per Case : 1
+    * File Structure : data.frame
+    * Cases : 
+    * Variables : 81
+    * Record Length : 
+    * Record Per Case : 1
 
 Variable Name                       | Explanation                     | Value 
 ----------------------------------- | ------------------------------- | -------------:
@@ -88,6 +88,8 @@ tBodyAcc-std()-Z                    |                                 | numeric
 tGravityAcc-mean()-X                |                                 | numeric
 tGravityAcc-mean()-Y                |                                 | numeric
 tGravityAcc-mean()-Z                |                                 | numeric
+tGravityAcc-std()-X
+                 |                                 | numeric
 tGravityAcc-std()-Y
                  |                                 | numeric
 tGravityAcc-std()-Z                 |                                 | numeric
@@ -194,8 +196,8 @@ angle(Z,gravityMean)
 -----------------------------------------------------------
 
 * data3 :
-** File Structure : data.frame
-** Cases : 
-** Variables : 81
-** Record Length : 
-** Record Per Case : 1
+    * File Structure : data.frame
+    * Cases : 
+    * Variables : 81
+    * Record Length : 
+    * Record Per Case : 1
