@@ -40,7 +40,7 @@ And I put it in R data.frames that I called :
 
 -----------------------------------------------------------
 
-## Naming the variables
+## Naming the **variables**
 
 * xTest and xTrain both contains measurements of different variables but the columns don't originally contain variables names. So I used the names of these variables contained in the
 features data.frame to name xTest and xTrain variables while reading test/X_test.txt and train/X_train.txt.
@@ -58,6 +58,17 @@ features data.frame to name xTest and xTrain variables while reading test/X_test
     -
     -
     -
+
+```javascript
+// All the code you will ever need
+var hw = "Hello World!"
+alert(hw);
+```
+Name | Lunch order | Spicy      | Owes
+------- | ---------------- | ---------- | ---------:
+Joan  | saag paneer | medium | $11
+Sally  | vindaloo        | mild       | $14
+Erin   | lamb madras | HOT      | $5
 
 -----------------------------------------------------------
 
