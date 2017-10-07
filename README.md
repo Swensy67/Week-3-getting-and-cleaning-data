@@ -43,6 +43,7 @@ In this repository you will find :
     * give you 2 final data frames :
         * data2 : merged training and test sets with only measurements on the mean and standard deviation for each measurment. Moreover, variables are labeled, such as the activities and the data set is sorted by activity and subject.
         * data3 : data frame containing average of each variable for each activity and each subject of data2.
+    * write in the working directory a "firstDataSet.txt" containing data of data2.
     * write in the working directory a "finalDataSet.txt" containing data of data3.
 
 If you already ran run_analysis.R once, you can comment the following lines :
@@ -54,10 +55,10 @@ If you already ran run_analysis.R once, you can comment the following lines :
 
 -----------------------------------------------------------
 
-# How to read the finalDataSet.txt
+# How to read the firstDataSet/finalDataSet.txt
 
 ```javascript
-data <- read.table("./finalDataSet.txt", header = TRUE)
+data <- read.table("./firstDataSet.txt", header = TRUE)
 View(data)
 ```
 

@@ -22,7 +22,7 @@ run_analysis <- function(){
   yTest <- read.table("./UCI HAR Dataset/test/Y_test.txt", header = FALSE, col.names = "activity")
   yTrain <- read.table("./UCI HAR Dataset/train/Y_train.txt", header = FALSE, col.names = "activity")
   
-  # For each line of yTest and yTrain, I change the activity number by the activity lable
+  # For each line of yTest and yTrain, I change the activity number by the activity label
   # (more elegant with factor level?)
   for (i in 1:length(yTest$activity)){
     if (yTest$activity[i] == 1) {yTest$activity[i] <- as.character(activity_labels$V2[1])}
@@ -88,6 +88,7 @@ run_analysis <- function(){
   
   data3 <- ddply(data2, .(subject, activity), numcolwise(mean))
   
+  write.table(x = data2, file = "./firstDataSet.txt", row.names = FALSE)
   write.table(x = data3, file = "./finalDataSet.txt", row.names = FALSE)
 
 }
