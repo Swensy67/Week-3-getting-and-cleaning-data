@@ -1,4 +1,3 @@
-```javascript
 run_analysis <- function(){
   
   # 0) - Set your working directory
@@ -79,4 +78,3 @@ run_analysis <- function(){
   data3 <- ddply(data2, .(subject, activity), numcolwise(mean))
 
 }
-```
