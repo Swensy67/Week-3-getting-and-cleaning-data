@@ -55,7 +55,7 @@ If you already ran run_analysis.R once, you can comment the following lines :
 
 -----------------------------------------------------------
 
-# How to read the firstDataSet/finalDataSet.txt
+# How to view the firstDataSet.txt/finalDataSet.txt
 
 ```javascript
 data <- read.table("./firstDataSet.txt", header = TRUE)

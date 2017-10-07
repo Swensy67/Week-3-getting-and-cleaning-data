@@ -24,11 +24,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 From this directory, I got the following data sets (for more informations, see : http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) :
 * 'features.txt': List of all features.
-* 'activity_labels.txt': Links the class labels with their activity name.
-* 'train/X_train.txt': Training set.
-* 'train/y_train.txt': Training labels.
-* 'test/X_test.txt': Test set.
-* 'test/y_test.txt': Test labels.
+* 'activity_labels.txt' : Links the class labels with their activity name.
+* 'train/X_train.txt' : Training set.
+* 'train/y_train.txt' : Training labels.
+* 'test/X_test.txt' : Test set.
+* 'test/y_test.txt' : Test labels.
 
 And I put it in R data.frames that I called :
 * features 
@@ -40,15 +40,56 @@ And I put it in R data.frames that I called :
 
 -----------------------------------------------------------
 
-## Naming the **variables**
+## Naming the variables
 
 * xTest and xTrain both contains measurements of different variables but the columns don't originally contain variables names. So I used the names of these variables contained in the
-features data.frame to name xTest and xTrain variables while reading test/X_test.txt and train/X_train.txt.
+features data.frame to name xTest and xTrain variables while reading test/X_test.txt and train/X_train.txt :
+```javascript
+xTest <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE, col.names = features)
+```
 * I also named yTest and yTrain variable "activity" while reading test/y_test.txt and train/y_train.txt.
-*
-*
-*
-*
+```javascript
+yTest <- read.table("./UCI HAR Dataset/test/Y_test.txt", header = FALSE, col.names = "activity")
+```
+* For each line of yTest and yTrain, I change the activity number by the activity label
+```javascript
+for (i in 1:length(yTest$activity)){
+    if (yTest$activity[i] == 1) {yTest$activity[i] <- as.character(activity_labels$V2[1])}
+    if (yTest$activity[i] == 2) {yTest$activity[i] <- as.character(activity_labels$V2[2])}
+    if (yTest$activity[i] == 3) {yTest$activity[i] <- as.character(activity_labels$V2[3])}
+    if (yTest$activity[i] == 4) {yTest$activity[i] <- as.character(activity_labels$V2[4])}
+    if (yTest$activity[i] == 5) {yTest$activity[i] <- as.character(activity_labels$V2[5])}
+    if (yTest$activity[i] == 6) {yTest$activity[i] <- as.character(activity_labels$V2[6])}
+  }
+```
+* I merge xTest and yTest and xTrain and yTrain by columns
+```javascript
+  xTest <- cbind(xTest, yTest)
+``` 
+* I get the subjects of training and tests
+```javascript
+  subjectTest <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE, col.names = "subject")
+``` 
+* I add the subject column to xTest and xTrain
+```javascript
+  xTest <- cbind(xTest, subjectTest)
+``` 
+* I merge the training and the test sets
+ ```javascript
+  data1 <- rbind(xTest, xTrain)
+``` 
+* From the precedent data set, I on ly keep columns containing "mean" and "std" and also activity and subject columns.
+```javascript
+data2 <- select(data1, contains("mean"), contains("std"), "activity", "subject")
+```
+* I sort data by activity and subject
+```javascript
+data2 <- arrange(data2, activity, subject)
+```
+* From the data set in step 4, I create a second data set with the average of each variable for each activity and each subject :
+```javascript
+data3 <- ddply(data2, .(activity, subject), numcolwise(mean))
+```  
 
 -----------------------------------------------------------
 
@@ -66,18 +107,18 @@ Then, I sorted data by activity and subject :
 data2 <- arrange(data2, activity, subject)
 ```
 
-Then, I sorted data by activity and subject :
+Finally, got the mean of each variable by activity and by subject :
 ```javascript
-data3 <- ddply(data2, .(subject, activity), numcolwise(mean))
+data3 <- ddply(data2, .(activity, subject), numcolwise(mean))
 ```
 
 -----------------------------------------------------------
 
 # Description of final data
 
-## data2
+## firstDataSet
 
-* data2 :
+* firstDataSet :
     * File Structure : data.frame
     * Cases : 10299
     * Variables : 81
@@ -202,11 +243,11 @@ angle(Z,gravityMean)
 
 -----------------------------------------------------------
 
-## data3
+## finalDataSet
 
-* data3 :
+* finalDataSet :
     * File Structure : data.frame
     * Cases : 180
     * Variables : 81
 
-Variables are the same as for data2 except it contains  the average of each variable for each activity and each subject.
+Variables are the same as for firstDataSet except it contains  the average of each variable for each activity and each subject.

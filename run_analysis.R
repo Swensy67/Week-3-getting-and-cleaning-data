@@ -86,7 +86,7 @@ run_analysis <- function(){
   # 5) From the data set in step 4, creates a second, independant tidy data set with 
   #    the average of each variable for each activity and each subject
   
-  data3 <- ddply(data2, .(subject, activity), numcolwise(mean))
+  data3 <- ddply(data2, .(activity, subject), numcolwise(mean))
   
   write.table(x = data2, file = "./firstDataSet.txt", row.names = FALSE)
   write.table(x = data3, file = "./finalDataSet.txt", row.names = FALSE)
