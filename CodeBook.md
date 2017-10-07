@@ -76,7 +76,7 @@ Record Length :
 Record Per Case : 
 
 Variable Name                       | Explanation                     | Value 
---------------------------------    | ------------------------------- | ----------:
+----------------------------------- | ------------------------------- | -------------:
 activity                            |                                 | numeric
 subject                             | Number of the volunteer         | From 1 to 30
 tBodyAcc-mean()-X                   |                                 | numeric
@@ -118,77 +118,77 @@ tBodyGyroJerk-std()-Z
                |                                 | numeric
 tBodyAccMag-mean()                  |                                 | numeric
 tBodyAccMag-std()
-                   ||numeric
+                   |                                 | numeric
 tGravityAccMag-mean()
-               ||numeric
+               |                                 | numeric
 tGravityAccMag-std()
-                ||numeric
+                |                                 | numeric
 tBodyAccJerkMag-mean()
-              ||numeric
+              |                                 | numeric
 tBodyAccJerkMag-std()
-               ||numeric
+               |                                 | numeric
 tBodyGyroMag-mean()
-                 ||numeric
+                 |                                 | numeric
 tBodyGyroMag-std()
-                  ||numeric
-tBodyGyroJerkMag-mean()             ||numeric
+                  |                                 | numeric
+tBodyGyroJerkMag-mean()             |                                 | numeric
 tBodyGyroJerkMag-std()
-              ||numeric
-fBodyAcc-mean()-X                   ||numeric
-fBodyAcc-mean()-Y                   ||numeric
-fBodyAcc-mean()-Z                   ||numeric
+              |                                 | numeric
+fBodyAcc-mean()-X                   |                                 | numeric
+fBodyAcc-mean()-Y                   |                                 | numeric
+fBodyAcc-mean()-Z                   |                                 | numeric
 fBodyAcc-std()-X
-                    ||numeric
-fBodyAcc-std()-Y                    ||numeric
+                    |                                 | numeric
+fBodyAcc-std()-Y                    |                                 | numeric
 fBodyAcc-std()-Z
-                    ||numeric
-fBodyAcc-meanFreq()-X               ||numeric
-fBodyAcc-meanFreq()-Y               ||numeric
+                    |                                 | numeric
+fBodyAcc-meanFreq()-X               |                                 | numeric
+fBodyAcc-meanFreq()-Y               |                                 | numeric
 fBodyAcc-meanFreq()-Z
-               ||numeric
+               |                                 | numeric
 fBodyAccJerk-mean()-X
-               ||numeric
-fBodyAccJerk-mean()-Y               ||numeric
-fBodyAccJerk-mean()-Z               ||numeric
+               |                                 | numeric
+fBodyAccJerk-mean()-Y               |                                 | numeric
+fBodyAccJerk-mean()-Z               |                                 | numeric
 fBodyAccJerk-std()-X
-                ||numeric
-fBodyAccJerk-std()-Y                ||numeric
-fBodyAccJerk-std()-Z                ||numeric
-fBodyAccJerk-meanFreq()-X           ||numeric
-fBodyAccJerk-meanFreq()-Y           ||numeric
-fBodyAccJerk-meanFreq()-Z           ||numeric
-fBodyGyro-mean()-X                  ||numeric
-fBodyGyro-mean()-Y                  ||numeric
-fBodyGyro-mean()-Z                  ||numeric
-fBodyGyro-std()-X                   ||numeric
-fBodyGyro-std()-Y                   ||numeric
-fBodyGyro-std()-Z                   ||numeric
-fBodyGyro-meanFreq()-X              ||numeric
-fBodyGyro-meanFreq()-Y              ||numeric
-fBodyGyro-meanFreq()-Z              ||numeric
-fBodyAccMag-mean()                  ||numeric
+                |                                 | numeric
+fBodyAccJerk-std()-Y                |                                 | numeric
+fBodyAccJerk-std()-Z                |                                 | numeric
+fBodyAccJerk-meanFreq()-X           |                                 | numeric
+fBodyAccJerk-meanFreq()-Y           |                                 | numeric
+fBodyAccJerk-meanFreq()-Z           |                                 | numeric
+fBodyGyro-mean()-X                  |                                 | numeric
+fBodyGyro-mean()-Y                  |                                 | numeric
+fBodyGyro-mean()-Z                  |                                 | numeric
+fBodyGyro-std()-X                   |                                 | numeric
+fBodyGyro-std()-Y                   |                                 | numeric
+fBodyGyro-std()-Z                   |                                 | numeric
+fBodyGyro-meanFreq()-X              |                                 | numeric
+fBodyGyro-meanFreq()-Y              |                                 | numeric
+fBodyGyro-meanFreq()-Z              |                                 | numeric
+fBodyAccMag-mean()                  |                                 | numeric
 fBodyAccMag-std()
-                   ||numeric
-fBodyAccMag-meanFreq()              ||numeric
+                   |                                 | numeric
+fBodyAccMag-meanFreq()              |                                 | numeric
 fBodyBodyAccJerkMag-mean()
-          ||numeric
+          |                                 | numeric
 fBodyBodyAccJerkMag-std() 
-          ||numeric
+          |                                 | numeric
 fBodyBodyGyroMag-mean()
-             ||numeric
+             |                                 | numeric
 fBodyBodyGyroMag-std()
-              ||numeric
-fBodyBodyGyroMag-meanFreq()         ||numeric
-fBodyBodyGyroJerkMag-mean()         ||numeric
+              |                                 | numeric
+fBodyBodyGyroMag-meanFreq()         |                                 | numeric
+fBodyBodyGyroJerkMag-mean()         |                                 | numeric
 fBodyBodyGyroJerkMag-std()
-          ||numeric
-fBodyBodyGyroJerkMag-meanFreq()     ||numeric
-angle(tBodyAccMean,gravity)         ||numeric
-angle(tBodyAccJerkMean),gravityMean)||numeric
+          |                                 | numeric
+fBodyBodyGyroJerkMag-meanFreq()     |                                 | numeric
+angle(tBodyAccMean,gravity)         |                                 | numeric
+angle(tBodyAccJerkMean),gravityMean)|                                 | numeric
 angle(tBodyGyroMean,gravityMean)
-    ||numeric
-angle(tBodyGyroJerkMean,gravityMean)||numeric
-angle(X,gravityMean)                ||numeric
-angle(Y,gravityMean)                ||numeric
+    |                                 | numeric
+angle(tBodyGyroJerkMean,gravityMean)|                                 | numeric
+angle(X,gravityMean)                |                                 | numeric
+angle(Y,gravityMean)                |                                 | numeric
 angle(Z,gravityMean)
-                ||numeric
+                |                                 | numeric
