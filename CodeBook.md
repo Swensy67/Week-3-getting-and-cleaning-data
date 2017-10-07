@@ -79,9 +79,9 @@ Variable Name                       | Explanation      | Value
 --------------------------------    | ---------------- | ----------:
 tBodyAcc-mean()-X                   |                  | numeric
 tBodyAcc-mean()-Y
-                   | vindaloo         | mild       
-tBodyAcc-mean()-Z                   | lamb madras      | HOT  
-tBodyAcc-std()-X                    ||    
+                   | vindaloo         | mild
+tBodyAcc-mean()-Z                   | lamb madras      | HOT
+tBodyAcc-std()-X                    ||
 tBodyAcc-std()-Y                    ||
 tBodyAcc-std()-Z                    ||
 tGravityAcc-mean()-X                ||
@@ -95,7 +95,7 @@ tGravityAcc-std()-Y
 tGravityAcc-std()-Z                 ||
 tBodyAccJerk-mean()-X               ||
 
-tBodyAccJerk-mean()-Y               || 
+tBodyAccJerk-mean()-Y               ||
 
 tBodyAccJerk-mean()-Z               ||
 tBodyAccJerk-std()-X
