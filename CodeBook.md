@@ -78,18 +78,6 @@ for (i in 1:length(yTest$activity)){
  ```javascript
   data1 <- rbind(xTest, xTrain)
 ``` 
-* From the precedent data set, I on ly keep columns containing "mean" and "std" and also activity and subject columns.
-```javascript
-data2 <- select(data1, contains("mean", ignore.case = FALSE), contains("std"), "activity", "subject")
-```
-* I sort data by activity and subject
-```javascript
-data2 <- arrange(data2, activity, subject)
-```
-* From the data set in step 4, I create a second data set with the average of each variable for each activity and each subject :
-```javascript
-data3 <- ddply(data2, .(activity, subject), numcolwise(mean))
-```  
 
 -----------------------------------------------------------
 
@@ -99,7 +87,7 @@ Among the data available, we only are interested in mean and standard (std) devi
 That's why I selected the corresponding variables :  
 
 ```javascript
-data2 <- select(data1, contains("mean"), contains("std"), "activity", "subject")
+data2 <- select(data1, contains("mean", ignore.case = FALSE), contains("std"), "activity", "subject")
 ```
 
 Then, I sorted data by activity and subject :
