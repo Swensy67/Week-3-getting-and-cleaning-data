@@ -87,7 +87,7 @@ tGravityAcc-mean()-X                |                                 | numeric
 tGravityAcc-mean()-Y                |                                 | numeric
 tGravityAcc-mean()-Z                |                                 | numeric
 tGravityAcc-std()-X
- lalalala                 |       lololo                          | numeric
+|| numeric
 tGravityAcc-std()-Y
                  |                                 | numeric
 tGravityAcc-std()-Z                 |                                 | numeric
