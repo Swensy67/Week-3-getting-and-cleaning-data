@@ -81,10 +81,10 @@ tBodyAcc-mean()-X                   |                  | numeric
 tBodyAcc-mean()-Y
                    | vindaloo         | mild
 tBodyAcc-mean()-Z                   | lamb madras      | HOT
-tBodyAcc-std()-X                    ||
-tBodyAcc-std()-Y                    ||
-tBodyAcc-std()-Z                    ||
-tGravityAcc-mean()-X                ||
+tBodyAcc-std()-X                    |                  |
+tBodyAcc-std()-Y                    |                  |
+tBodyAcc-std()-Z                    |                  |
+tGravityAcc-mean()-X                |                  | 
 
 tGravityAcc-mean()-Y                ||
 tGravityAcc-mean()-Z                ||
