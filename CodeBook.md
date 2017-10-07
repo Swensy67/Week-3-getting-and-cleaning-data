@@ -77,15 +77,15 @@ Variable Name                       | Explanation                     | Value
 ----------------------------------- | ------------------------------- | -------------:
 activity                            |                                 | numeric
 subject                             | Number of the volunteer         | From 1 to 30
-tBodyAcc-mean()-X                   |                                 | numeric
-tBodyAcc-mean()-Y                   |                                 | numeric
-tBodyAcc-mean()-Z                   |                                 | numeric
-tBodyAcc-std()-X                    |                                 | numeric
-tBodyAcc-std()-Y                    |                                 | numeric
-tBodyAcc-std()-Z                    |                                 | numeric
-tGravityAcc-mean()-X                |                                 | numeric
-tGravityAcc-mean()-Y                |                                 | numeric
-tGravityAcc-mean()-Z                |                                 | numeric
+tBodyAcc-mean()-X                   | Mean body acceleration along x axis                                | numeric
+tBodyAcc-mean()-Y                   | Mean body acceleration along y axis                                 | numeric
+tBodyAcc-mean()-Z                   | Mean body acceleration along z axis                                 | numeric
+tBodyAcc-std()-X                    | Standard deviation of body acceleration along x axis                                 | numeric
+tBodyAcc-std()-Y                    | Standard deviation of body acceleration along y axis                                 | numeric
+tBodyAcc-std()-Z                    | Standard deviation of body acceleration along z axis                                | numeric
+tGravityAcc-mean()-X                | Mean gravity acceleration along x axis                                | numeric
+tGravityAcc-mean()-Y                | Mean gravity acceleration along y axis                                 | numeric
+tGravityAcc-mean()-Z                | Mean gravity acceleration along z axis                                | numeric
 tGravityAcc-std()-X
                  | Standard deviation of gravity acceleration along x axis                                 | numeric
 tGravityAcc-std()-Y
