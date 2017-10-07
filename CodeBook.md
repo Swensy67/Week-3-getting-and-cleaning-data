@@ -53,17 +53,19 @@ features data.frame to name xTest and xTrain variables while reading test/X_test
 -----------------------------------------------------------
 
 ## Selection of data
-    -
-    -
-    -
-    -
-    -
+
+Among the data available, we only are interested in mean and standard (std) deviation variables.
+That's why we selected the corresponding variables :  
 
 ```javascript
-// All the code you will ever need
-var hw = "Hello World!"
-alert(hw);
+data2 <- select(data1, contains("mean"), contains("std"), "activity", "subject")
 ```
+
+Then, I sorted data by activity and subject :
+```javascript
+data3 <- ddply(data2, .(subject, activity), numcolwise(mean))
+```
+
 -----------------------------------------------------------
 
 ## Description of final data
@@ -195,5 +197,7 @@ angle(Z,gravityMean)
 
 * data3 :
     * File Structure : data.frame
-    * Cases : 10299
+    * Cases : 180
     * Variables : 81
+
+Variables are the same as for data2 except it contains  the average of each variable for each activity and each subject.
